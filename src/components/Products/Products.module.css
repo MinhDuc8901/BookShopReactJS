@@ -1,0 +1,8 @@
+.Card_padding{
+    display:flex;
+    flex-wrap: wrap;
+}
+.Card_block{
+    margin-top: 16px;
+    margin-right: 16px;
+}

@@ -1,0 +1,59 @@
+.Card_size{
+    width: 200px;
+    /* height: 338px; */
+    background-color: #ffffff;
+    margin: 0;
+}
+.Card_size:hover{
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 20px;
+    z-index: 1;
+}
+.Card_size img{
+    height: 200px;
+    width: 200px;
+}
+.Card_info{
+    height: 120px;
+    width: 176px;
+    padding: 8px 0 4px 0;
+    margin: 0 12px;
+}
+.Card_content{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.Card_start{
+    font-size: 11px;
+    height: 16px;
+}
+.Card_start i{
+    color: rgb(253, 216, 54);
+}
+.Card_price{
+    margin-top: 6px;
+    font-size: 16px;
+}
+.Card_price h2{
+    font-size: 16px;
+}
+.Card_price h2 span{
+    color: rgb(255, 66, 78);
+    margin: 3px 0 0 4px;
+    padding: 0 2px;
+    font-size: 12px;
+}
+.Card_gif p{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    color: rgb(36, 36, 36);
+}
+
+

@@ -1,0 +1,268 @@
+.Distance{
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: #fafafa;
+}
+.padding_top_20{
+    padding-top: 20px;
+}
+.padding_bottom_20{
+    padding-bottom: 20px;
+}
+.line_right{
+    border-right: 1px solid rgb(242, 242, 242);
+}
+.Image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Product{
+
+}
+.Product_title h1{
+    margin: 0px 0px 4px;
+    color: rgb(36, 36, 36);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    word-break: break-word;
+    margin-top: 26px;
+}
+.Product_title_star span:first-child i{
+    color: #fdd836;
+    font-size: 14px;
+}
+.Product_title_star span:first-child {
+    margin-right: 10px;
+}
+.Product_title_star span:last-child {
+    cursor: pointer;
+    margin-left: 8px;
+    color: rgb(120, 120, 120);
+    font-size: 15px;
+    line-height: 24px;
+}
+.Product_price div{
+    display: flex;
+    align-items: flex-end;
+}
+.Product_price div div:first-child{
+    font-size: 32px;
+    line-height: 40px;
+    margin-right: 8px;
+    font-weight: 600;
+    color: rgb(255, 66, 78);
+}
+.Product_price div div:nth-child(2) {
+    color: rgb(128, 128, 137);
+    text-decoration: line-through;
+    font-size: 14px;
+    line-height: 20px;
+}
+.Product_price div div:nth-child(3) {
+    font-weight: 500;
+    margin-left: 4px;
+    color: rgb(255, 66, 78);
+    margin-top: 3px;
+    line-height: 18px;
+    font-size: 14px;
+    padding: 0px 4px;
+}
+.Product_quantity p{
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0px 0px 10px;
+}
+.Product_quantity div button{
+    border-right: medium none;
+    border-radius: 4px 0px 0px 4px;
+    padding: 4px;
+    cursor: pointer;
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(236, 236, 236);
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+.Product_quantity div button:hover{
+    height: 30px;
+    color: rgb(36, 36, 36);
+    font-size: 14px;
+    text-align: center;
+    outline: none;
+}
+.Product_quantity div input{
+    height: 30px;
+    color: rgb(36, 36, 36);
+    font-size: 14px;
+    text-align: center;
+    outline: none;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    overflow: visible;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0px;
+    width: 60px;
+}
+.Product_add_cart button{
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 57, 69);
+    cursor: pointer;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    min-width: 190px;
+    width: 100%;
+    max-width: 300px;
+    height: 48px;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: medium none;
+    border-radius: 4px;
+    outline: none;
+    transition: all 0.1s;
+}
+.Product_add_cart button:hover{
+    opacity: 0.8;
+}
+.Title{
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 8px 16px;
+    text-transform: capitalize;
+    display: flex;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    -moz-box-align: center;
+    align-items: center;
+    margin: 0px;
+}
+.Info_Table{
+    width: 920px;
+    padding: 0px 16px 16px;
+    display: inline-block;
+    color: rgb(36, 36, 36);
+    text-align: justify;
+    border-radius: 4px;
+}
+.Info_Table table{
+    width: 100% !important;
+    max-width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    line-height: 21px;
+    color: rgb(36, 36, 36);
+    text-align: justify;
+}
+.Info_Table table tr td{
+    width: 220px;
+    vertical-align: top;
+    color: rgb(79, 79, 79);
+    font-size: 13px;
+    font-weight: 500;
+    background: rgb(239, 239, 239);
+    padding: 10px 15px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    line-height: 21px;
+}
+.Info_Table table tr td:nth-child(2){
+    background: rgb(239, 239, 239);
+}
+.Content{
+    /* width: 920px; */
+    width: 100%;
+    padding: 0px 16px 20px;
+    display: inline-block;
+    color: rgb(36, 36, 36);
+    text-align: justify;
+    border-radius: 4px;
+    
+}
+.Rate_Star{
+    background-color: #fffbf8;
+    min-height: 5rem;
+    border: 1px solid #f9ede5;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding: 1.875rem;
+}
+.Rate_over{
+    text-align: center;
+    margin-right: 1.875rem;
+
+}
+.Rate_over div:first-child{
+    color: #ee4d2d;
+    font-size: 1.125rem;
+    text-align: center;
+}
+.Rate_over div:first-child span:first-child{
+    font-size: 1.875rem;
+}
+.Rate_over div:first-child span:last-child {
+    font-size: 1.125rem;
+}
+.Rate_over div:last-child i{
+    color: #ee4d2d;
+    stroke: currentColor;
+}
+.Rate_over_btn div{
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    height: 2rem;
+    line-height: 2rem;
+    min-width: 6.25rem;
+    text-align: center;
+    padding: 0 .625rem;
+    color: rgba(0, 0, 0, .8);
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .09);
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: .5rem;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87);
+    text-transform: capitalize;
+    border-radius: 2px;
+    margin-bottom: .3125rem;
+    margin-top: .3125rem;
+}
+.Rate_over_btn_active{
+    border-color: var(--brand-primary-color, #ee4d2d);
+    fill: var(--brand-primary-color, #ee4d2d);
+    color: var(--brand-primary-color, #ee4d2d);
+}
+.Product_Comments{
+    border-bottom: 1px solid rgba(0, 0, 0, .09);
+    display: flex;
+    padding: 1rem 0 1rem 1.25rem;
+}
+.Product_Comments_Img{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 50px;
+}
+.Product_Comments_Img img{
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.Product_Comments span{
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87);
+    font-size: .75rem;
+}

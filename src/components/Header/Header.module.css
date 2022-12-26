@@ -1,0 +1,129 @@
+.header{
+    height: 100px;
+    background-color: #1a94ff;
+}
+
+.header_top{
+    padding: 16px 0 10px 0;
+}
+
+.header_img_size{
+    width: 60px;
+}
+
+.header_input_style{
+    height: 100%;
+    width: 80%;
+    border: 0;
+    outline: none;
+    padding: 0;
+    padding-left: 10px;
+    border-radius: 2px 0 0 2px;
+}
+
+.header_btn_style{
+    height: 100%;
+    width: 20%;
+    border: 0;
+    outline: none;
+    padding: 0;
+    align-items: center;
+    margin-bottom: 1px;
+    background-color: #0d5cb6;
+    border-radius: 0 2px 2px 0;
+    color: aliceblue;
+
+}
+
+.header_img_avatar img{
+    height: 32px;
+    width: 32px;
+    border-radius: 2px;
+}
+.header_account{
+    align-items: center;
+    position: relative;
+}
+.header_account_info{
+    margin-left: 10px;
+}
+.header_account_info p{
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+
+.header_cart{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+}
+.header_cart i{
+    height: 32px;
+    width: 32px;
+    font-size: 25px;
+    color: aliceblue;
+}
+.header_bottom{
+    background-color: #464646;
+    height: 54px;
+}
+.header_button ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header_button ul li{
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 54px;
+    transition: 0.5s all;
+}
+.header_button ul li:hover{
+    background-color: #1a94ff;
+    cursor: pointer;
+}
+.header_button ul li p{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0;
+}
+.active{
+    background-color: #1a94ff;
+}
+.Header_Logout{
+    display: none;
+    transform: all 0.5s;
+}
+.Header_Logout::before{
+    cursor: pointer;
+    content: "";
+    position: absolute;
+    top: -27px;
+    right: 55px;
+    border-width: 15px 15px;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+    
+}
+.header_account:hover div:last-child{
+    display: block;
+}
+.search{
+    position: relative;
+}
+.header_img_product img {
+    height: 50px;
+    width: 50px;
+    border-radius: 2px;
+}
+.header_img_product{
+    margin-left: 10px;
+    width: 50px;
+}
+.search:hover ~ nav {
+    display: block;
+}

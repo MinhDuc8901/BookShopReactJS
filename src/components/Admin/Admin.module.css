@@ -1,0 +1,33 @@
+body{
+    background-color: #fff;
+}
+.Background_White{
+    background-color: #efefef;
+}
+.bg {
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.formLogin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+.inputForm {
+    margin: 10px;
+
+}
+.Width_Height{
+    width: 100vh;
+    height: 100vh;
+}

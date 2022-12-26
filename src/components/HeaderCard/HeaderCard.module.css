@@ -1,0 +1,28 @@
+.HeaderCard_Size{
+    width: calc(100%-18px);
+    font-size: 16px;
+    font-weight: 500;
+    color: #1a94ff;
+    height: 60px;
+    background-color: #ffffff;
+    margin-right: 16px;
+}
+.HeaderCard_Size div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.HeaderCard_Size h1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    align-items: center;
+    margin: 0;
+}
+.HeaderCard_Size p{
+    width: 100%;
+    height: 5px;
+    background-color: #1a94ff;
+}
